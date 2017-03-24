@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: local('Raleway'), local('Raleway-Regular'), url('Raleway-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+.main-width {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top-menu {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.top-menu li {
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: 400;
+    float: left;
+}
+
+span {
+    color: #00C29F;
+}
