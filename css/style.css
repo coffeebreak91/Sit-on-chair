@@ -19,17 +19,21 @@
 }
 
 header {
-    width: 100%;
+    /*width: 100%;*/
+    width: 1200px;
     height: 80px;
     background-color: black;
     color: white;
     border: 2px solid green;
+    margin-left: 120px;
 }
 
 .main-width {
     width: 1200px;
-    margin-left: 120px;
+    /*margin-left: 120px;*/
     border: 2px solid red;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .top-height {
@@ -58,8 +62,10 @@ span {
 }
 
 .back1 {
-    width: 100%;
+    /*width: 100%;*/
+    width: 1200px;
     border: 2px solid green;
+    margin-left: 120px;
     box-shadow: inset -10px -83px 78px 11px rgba(219, 216, 219, 1);
 }
 
@@ -73,19 +79,19 @@ span {
     display: inline-block;
     float: left;
     height: 300px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 110px;
 }
 
 .text-box1 {
-    width: 30%;
+    width: 40%;
     border: 2px solid blue;
     display: inline-block;
     height: 300px;
     text-align: center;
     padding-top: 50px;
     float: right;
-    margin-right: 210px;
+    margin-right: 150px;
     margin-top: 110px;
 }
 
@@ -108,8 +114,10 @@ span {
 }
 
 .back2 {
-    width: 100%;
+    /*width: 100%;*/
+    width: 1200px;
     border: 2px solid green;
+    margin-left: 120px;
 }
 
 .section2-height {
@@ -131,17 +139,17 @@ span {
   margin-top: 50px;
   width: 333px;
   height: 229px;
-  margin-left: 100px;
+  margin-left: 30px;
 }
 
 .text-box2 {
   display: inline-block;
   border: 2px solid #CFCFCF;
   text-align: left;
-  width: 333.33px;
+  width: 332px;
   margin-top: 50px;
   padding: 20px;
-  margin-left: 45px;
+  margin-left: 25px;
   float: right;
 }
 
