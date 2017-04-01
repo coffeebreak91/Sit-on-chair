@@ -8,6 +8,7 @@
     outline: 0;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 @font-face {
@@ -161,4 +162,91 @@ span {
 .text {
   font-size: 14px;
   padding-bottom: 20px;
+}
+
+.back3 {
+  width: 1200px;
+  margin-left: 120px;
+  border: 2px solid green;
+  background-color: #F1F1F1;
+}
+
+.section3-height {
+  height: 750px;
+}
+
+.offert-box1 {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #C2C2C2;
+  height: 460px;
+  width: 333px;
+  float: left;
+  margin-top: 200px;
+  background-color: #F9F9F9;
+}
+
+.offert-box2 {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #C2C2C2;
+  height: 460px;
+  width: 333px;
+  margin-top: 200px;
+  margin-left: 28px;
+  background-color: #34C6AB;
+}
+
+.offert-box3 {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #C2C2C2;
+  height: 460px;
+  width: 333px;
+  float: right;
+  margin-top: 200px;
+  background-color: #F9F9F9;
+}
+
+.circle-top {
+    position: absolute;
+    top: -35px;
+    right: 133px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C2C2C2;
+    border: 12px solid white;
+    box-shadow: 0 0 0 2px #C2C2C2;
+    box-sizing: border-box;
+}
+
+.circle-top-box2 {
+    position: absolute;
+    top: -35px;
+    right: 133px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 12px solid #34C6AB;
+    box-shadow: 0 0 0 2px #34C6AB;
+    box-sizing: border-box;
+}
+
+.offert-head {
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #34C6AB;
+    margin-top: 23px;
+}
+
+.offert-head-box2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 23px;
+
 }
