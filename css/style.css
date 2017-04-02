@@ -175,6 +175,15 @@ span {
     height: 750px;
 }
 
+#section-title {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 50px;
+
+}
+
+
 .offert-box1 {
     position: relative;
     display: inline-block;
@@ -182,7 +191,7 @@ span {
     height: 460px;
     width: 333px;
     float: left;
-    margin-top: 200px;
+    margin-top: 150px;
     background-color: #F9F9F9;
 }
 
@@ -192,7 +201,7 @@ span {
     border: 2px solid #C2C2C2;
     height: 460px;
     width: 333px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 28px;
     background-color: #34C6AB;
 }
@@ -204,7 +213,7 @@ span {
     height: 460px;
     width: 333px;
     float: right;
-    margin-top: 200px;
+    margin-top: 150px;
     background-color: #F9F9F9;
 }
 
@@ -392,4 +401,145 @@ sup {
 .button-text {
   text-transform: uppercase;
   color: white;
+}
+
+.back4 {
+  width: 1200px;
+  margin-left: 120px;
+  border: 2px solid green;
+}
+
+.section4-height {
+  height: 750px;
+}
+
+.right-box {
+  border: 2px solid blue;
+  display: inline-block;
+  float: right;
+  height: 700px;
+  width: 395px;
+}
+
+.left-box {
+  border: 2px solid blue;
+  display: inline-block;
+  float: left;
+  height: 700px;
+  width: 660px;
+  padding-top: 30px;
+
+}
+
+form {
+  display: inline-block;
+}
+
+.input-name {
+  width: 645px;
+  height: 60px;
+  border: 1px solid #34C6AB;
+  font-size: 35px;
+  padding-left: 20px;
+  margin-top: 60px;
+}
+
+.input-email {
+  width: 645px;
+  height: 60px;
+  border: 1px solid #34C6AB;
+  font-size: 35px;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+textarea {
+  border: 1px solid #34C6AB;
+  margin-top: 25px;
+  font-size: 32px;
+  padding-left: 20px;
+}
+
+.image-redchair {
+  display: inline-block;
+  float: right;
+  margin-right: 70px;
+  margin-top: 80px;
+}
+
+.input-approve-box {
+  border: 2px solid green;
+  padding-left: 50px;
+  height: 80px;
+  margin-top: 30px;
+}
+
+
+.input-approve {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  zoom: 1.5;
+  float: left;
+  margin-top: 2px;
+}
+
+#text-approve {
+  display: inline-block;
+  float: right;
+  width: 280px;
+  margin-left: 5px;
+  font-size: 18px;
+  color: grey;
+}
+
+.send-button {
+  border: 2px solid red;
+  width: 310px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 15px;
+  background-color: #34C6AB;
+}
+
+#text-footer-left {
+  display: inline-block;
+  float: left;
+  margin-top: 70px;
+  color: lightgrey;
+}
+
+.img-footer1 {
+  display: inline-block;
+  float: left;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+
+.img-footer {
+  display: inline-block;
+  float: left;
+  margin-top: 130px;
+}
+
+#text-footer-right {
+  display: inline-block;
+  float: right;
+  margin-top: 135px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+#span-footer {
+  font-weight: 900;
+  color: grey;
 }
